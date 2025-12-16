@@ -3,7 +3,6 @@
 Chatbot conversazionale sviluppato con **Rasa** per la gestione di **collezioni di oggetti** (carte, auto, monete, ecc.) tramite linguaggio naturale.
 Il sistema consente all’utente di consultare, cercare, aggiungere ed eliminare oggetti all’interno di collezioni persistenti.
 
----
 ## Come funziona Rasa
 Come funziona Chatbot Rasa 
  
@@ -35,8 +34,6 @@ Dal punto di vista architetturale, Rasa si distingue per la sua versatilità: pu
 * Persistenza dei dati tramite **SQLite** o **CSV**
 * Integrazione con **Telegram**
 
----
-
 ## Tecnologie utilizzate
 
 * **Python 3.9**
@@ -49,7 +46,6 @@ Dal punto di vista architetturale, Rasa si distingue per la sua versatilità: pu
 
 > ⚠️ Rasa non supporta Python ≥ 3.10
 
----
 
 ## Struttura del progetto
 
@@ -72,6 +68,7 @@ project/
 ├── config.yml
 ├── credentials.yml
 └── endpoints.yml
+
 ```
 | # | Comando                               | Descrizione                          |
 | - | ------------------------------------- | ------------------------------------ |
@@ -103,7 +100,6 @@ project/
 * `action_aggiungi_oggetto_collezione`
 * `action_elimina_oggetto_collezione`
 
----
 
 ## Esempi di comandi
 
