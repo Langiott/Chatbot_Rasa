@@ -115,22 +115,23 @@ Digitando un saluto come `Ciao`, il chatbot risponde immediatamente con il messa
 ### 2. Elenca collezioni
 
 Questa action restituisce l’elenco delle collezioni disponibili. Nel caso di esempio vengono mostrate due collezioni: **auto** e **carte**.
+
 ![Elenca collezioni](IMG/2.png)
 
 ---
 
 ### 3. Conta oggetti collezione
 
-Permette di conoscere il numero totale di oggetti presenti in una collezione specifica.
-Si consiglia di indicare sempre la categoria della collezione.
+Permette di conoscere il numero totale di oggetti presenti in una collezione specifica. Si consiglia di indicare sempre la categoria della collezione.
+
 ![Conta oggetti collezione](IMG/3.png)
 
 ---
 
 ### 4. Mostra oggetti collezione
 
-Mostra tutti gli oggetti di una collezione che corrispondono a un nome, anche parziale.
-Ad esempio, cercando **“Luffy”** vengono restituiti anche oggetti con nome completo *Monkey D. Luffy*.
+Mostra tutti gli oggetti di una collezione che corrispondono a un nome, anche parziale. Ad esempio, cercando **“Luffy”** vengono restituiti anche oggetti con nome completo *Monkey D. Luffy*.
+
 ![Mostra oggetti collezione](IMG/4.png)
 
 ---
@@ -138,6 +139,7 @@ Ad esempio, cercando **“Luffy”** vengono restituiti anche oggetti con nome c
 ### 5. Trova oggetto specifico
 
 Questa action esegue una ricerca avanzata considerando, oltre al nome, anche attributi come **tipo**, **rarità** o altre caratteristiche specificate dall’utente.
+
 ![Trova oggetto specifico](IMG/5.png)
 
 ---
@@ -145,6 +147,7 @@ Questa action esegue una ricerca avanzata considerando, oltre al nome, anche att
 ### 6. Aggiungi oggetto alla collezione
 
 Consente di aggiungere un nuovo oggetto a una collezione esistente. Il chatbot conferma l’avvenuto inserimento dell’elemento.
+
 ![Aggiungi oggetto alla collezione](IMG/6.png)
 
 ---
@@ -152,6 +155,7 @@ Consente di aggiungere un nuovo oggetto a una collezione esistente. Il chatbot c
 ### 7. Elimina oggetto dalla collezione
 
 L’eliminazione avviene in due fasi: ricerca dell’oggetto e conferma esplicita dell’elemento da rimuovere, per evitare cancellazioni accidentali.
+
 ![Elimina oggetto dalla collezione](IMG/7.png)
 
 ## Esempi di comandi
