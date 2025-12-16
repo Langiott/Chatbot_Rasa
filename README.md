@@ -5,7 +5,7 @@ Il sistema consente all’utente di consultare, cercare, aggiungere ed eliminare
 
 ## Come funziona Rasa
 
-![Saluto iniziale](images/rasa.png)
+![Saluto iniziale](IMG/rasa.png)
 
 Il funzionamento di Rasa si articola in due componenti principali: il modulo NLU (Natural Language Under standing), responsabile dell’ analisi semantica dell’input dell’ utente, e il modulo Core, che si occupa di determinare la risposta più adeguata in base alla storia conversazionale. Quando un utente invia un messaggio al chatbot, ad esempio “Aggiungi una carta di tipo Leader”, il primo componente che entra in gioco è Rasa NLU. Questo modulo ha il compito di trasformare il testo grezzo in un’informazione strutturata, riconoscendo l’intent (cioè l’intenzione comunicativa dell’utente, in questo caso aggiungi_oggetto) ed  estraendo le entità rilevanti (ad esempio categoria = carta, tipo = Leader). In questo modo il sistema non si limita a leggere il testo, ma ne comprende il significato a livello semantico. Le informazioni elaborate dal NLU vengono quindi trasmesse al Rasa Core, che rappresenta il “motore decisionale” dell’architettura. Il Core valuta lo stato corrente della conversazione, ossia il contesto e gli slot già compilati, e decide la prossima azione da eseguire. Tale scelta si basa sia sulle regole e sulle stories apprese durante la fase di addestramento, sia sugli obiettivi della conversazione. A seconda dei casi, il Core può generare direttamente una risposta semplice oppure richiedere l’esecuzione di una custom action.   
    
