@@ -94,6 +94,7 @@ project/
 
 ## Azioni disponibili
 
+* `action_saluto_iniziale`
 * `action_elenca_collezioni`
 * `action_conta_oggetti_collezione`
 * `action_mostra_oggetti_collezione`
