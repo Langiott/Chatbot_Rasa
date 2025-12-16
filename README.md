@@ -103,14 +103,14 @@ project/
 ### 1. Saluto iniziale
 
 Digitando un saluto come `Ciao`, il chatbot risponde immediatamente con il messaggio di benvenuto, confermando il corretto funzionamento del sistema.
-![Saluto iniziale](images/telegram_saluto.png)
+![Saluto iniziale](images/1.png)
 
 ---
 
 ### 2. Elenca collezioni
 
 Questa action restituisce l’elenco delle collezioni disponibili. Nel caso di esempio vengono mostrate due collezioni: **auto** e **carte**.
-![Elenca collezioni](images/telegram_elenca_collezioni.png)
+![Elenca collezioni](images/2.png)
 
 ---
 
@@ -118,7 +118,7 @@ Questa action restituisce l’elenco delle collezioni disponibili. Nel caso di e
 
 Permette di conoscere il numero totale di oggetti presenti in una collezione specifica.
 Si consiglia di indicare sempre la categoria della collezione.
-![Conta oggetti collezione](images/telegram_conta_oggetti.png)
+![Conta oggetti collezione](images/3.png)
 
 ---
 
@@ -126,28 +126,28 @@ Si consiglia di indicare sempre la categoria della collezione.
 
 Mostra tutti gli oggetti di una collezione che corrispondono a un nome, anche parziale.
 Ad esempio, cercando **“Luffy”** vengono restituiti anche oggetti con nome completo *Monkey D. Luffy*.
-![Mostra oggetti collezione](images/telegram_mostra_oggetti.png)
+![Mostra oggetti collezione](images/4.png)
 
 ---
 
 ### 5. Trova oggetto specifico
 
 Questa action esegue una ricerca avanzata considerando, oltre al nome, anche attributi come **tipo**, **rarità** o altre caratteristiche specificate dall’utente.
-![Trova oggetto specifico](images/telegram_trova_oggetto.png)
+![Trova oggetto specifico](images/5.png)
 
 ---
 
 ### 6. Aggiungi oggetto alla collezione
 
 Consente di aggiungere un nuovo oggetto a una collezione esistente. Il chatbot conferma l’avvenuto inserimento dell’elemento.
-![Aggiungi oggetto alla collezione](images/telegram_aggiungi_oggetto.png)
+![Aggiungi oggetto alla collezione](images/6.png)
 
 ---
 
 ### 7. Elimina oggetto dalla collezione
 
 L’eliminazione avviene in due fasi: ricerca dell’oggetto e conferma esplicita dell’elemento da rimuovere, per evitare cancellazioni accidentali.
-![Elimina oggetto dalla collezione](images/telegram_elimina_oggetto.png)
+![Elimina oggetto dalla collezione](images/7.png)
 
 ## Esempi di comandi
 
