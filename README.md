@@ -68,7 +68,11 @@ project/
 ├── credentials.yml
 └── endpoints.yml
 
+## Gestione dei dati
+
 ```
+## Comandi utili
+
 | # | Comando                               | Descrizione                          |
 | - | ------------------------------------- | ------------------------------------ |
 | 1 | `git clone <repository_url>`          | Clona il repository del progetto     |
@@ -87,8 +91,6 @@ project/
 * All’avvio del bot vengono automaticamente convertiti in **SQLite**
 * Ogni collezione corrisponde a una tabella del database
 * Gli attributi delle collezioni sono dinamici e dipendono dal dataset
-
----
 
 ## Azioni disponibili
 
