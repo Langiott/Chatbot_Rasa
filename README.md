@@ -108,6 +108,7 @@ project/
 ### 1. Saluto iniziale
 
 Digitando un saluto come `Ciao`, il chatbot risponde immediatamente con il messaggio di benvenuto, confermando il corretto funzionamento del sistema.
+
 ![Saluto iniziale](IMG/1.png)
 
 ---
