@@ -1,0 +1,69 @@
+version: "3.1"
+
+intents:
+  - saluto
+  - elenca_collezioni
+  - conta_oggetti
+  - mostra_oggetti
+  - trova_oggetto
+  - aggiungi_oggetto
+  - elimina_oggetto
+
+entities:
+  - categoria
+  - nome
+
+slots:
+  categoria:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: categoria
+
+  nome:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: nome
+
+  oggetto_index:
+    type: text
+    mappings:
+      - type: from_text 
+
+  eliminazione_temporanea:   # 🔧 slot per salvare JSON degli oggetti da eliminare
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: custom
+
+  oggetti_trovati:
+    type: any
+    mappings:
+      - type: custom     # gestito manualmente da Python
+
+responses:
+  utter_saluto:
+    - text: |
+        ╭──────────────────────────────────────────────────────────────╮
+        │        🤖 COLLEZIONIOGGETTI CON CHATBOT RASA 🤖             │
+        │                                                              │
+        │  Comandi disponibili:                                        │
+        │   ➤ Conta collezione    ➤ Elenca collezioni                │
+        │   ➤ Trova oggetti       ➤ Trova oggetto specifico          │
+        │   ➤ Aggiungi elementi   ➤ Elimina elementi                 │
+        │                                                              │
+        │  Scrivi una richiesta per iniziare!                          │
+        ╰──────────────────────────────────────────────────────────────╯
+
+actions:
+  - action_elenca_collezioni
+  - action_conta_oggetti_collezione
+  - action_mostra_oggetti_collezione
+  - action_trova_oggetto_specifico
+  - action_aggiungi_oggetto
+  - action_elimina_oggetto
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

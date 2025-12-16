@@ -1,0 +1,38 @@
+  version: "3.1"
+
+rules:
+  - rule: Saluto
+    steps:
+      - intent: saluto
+      - action: utter_saluto
+
+
+  - rule: Mostra oggetti
+    steps:
+      - intent: mostra_oggetti
+      - action: action_mostra_oggetti_collezione
+
+  - rule: Trova oggetto specifico
+    steps:
+      - intent: trova_oggetto_specifico
+      - action: action_trova_oggetto_specifico
+
+  - rule: Elenca collezioni
+    steps:
+      - intent: elenca_collezioni
+      - action: action_elenca_collezioni
+
+  - rule: Conta oggetti
+    steps:
+      - intent: conta_oggetti
+      - action: action_conta_oggetti_collezione
+
+  - rule: Aggiungi oggetto
+    steps:
+      - intent: aggiungi_oggetto
+      - action: action_aggiungi_oggetto
+
+  - rule: Elimina oggetto
+    steps:
+      - intent: elimina_oggetto
+      - action: action_elimina_oggetto

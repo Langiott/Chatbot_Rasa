@@ -1,0 +1,42 @@
+version: "3.1"
+nlu:
+
+- intent: saluto
+  examples: |
+    - ciao
+    - buongiorno
+    - salve
+    - hey
+
+- intent: elenca_collezioni
+  examples: |
+    - quante collezioni ci sono?
+    - elenca le collezioni
+    - fammi vedere le collezioni
+
+- intent: conta_oggetti
+  examples: |
+    - quanti oggetti ci sono nella collezione [carte](categoria)?
+    - conta gli oggetti in [auto](categoria)
+    - conta quanti elementi ha la collezione [carte](categoria)
+
+- intent: mostra_oggetti
+  examples: |
+    - mostrami Luffy nella collezione [carte](categoria)
+    - trova [Monkey D. Luffy](nome) in [carte](categoria)
+
+- intent: trova_oggetto
+  examples: |
+    - trovami [Luffy Leader](nome) nella collezione [carte](categoria)
+    - cerca [Luffy OP-09](nome) nella collezione [carte](categoria)
+
+- intent: aggiungi_oggetto
+  examples: |
+    - aggiungimi [Boa Hancock Yellow OP-09 PARAMOUNT WAR](nome) nella collezione [carte](categoria)
+    - inserisci [Charizard Rosso ST-03](nome) in [carte](categoria)
+
+- intent: elimina_oggetto
+  examples: |
+    - voglio eliminare [Luffy Leader](nome) dalla collezione [carte](categoria)
+    - elimina [Luffy OP-09](nome) da [carte](categoria)
+
