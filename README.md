@@ -108,14 +108,14 @@ project/
 ### 1. Saluto iniziale
 
 Digitando un saluto come `Ciao`, il chatbot risponde immediatamente con il messaggio di benvenuto, confermando il corretto funzionamento del sistema.
-![Saluto iniziale](images/1.png)
+![Saluto iniziale](IMG/1.png)
 
 ---
 
 ### 2. Elenca collezioni
 
 Questa action restituisce l’elenco delle collezioni disponibili. Nel caso di esempio vengono mostrate due collezioni: **auto** e **carte**.
-![Elenca collezioni](images/2.png)
+![Elenca collezioni](IMG/2.png)
 
 ---
 
@@ -123,7 +123,7 @@ Questa action restituisce l’elenco delle collezioni disponibili. Nel caso di e
 
 Permette di conoscere il numero totale di oggetti presenti in una collezione specifica.
 Si consiglia di indicare sempre la categoria della collezione.
-![Conta oggetti collezione](images/3.png)
+![Conta oggetti collezione](IMG/3.png)
 
 ---
 
@@ -131,28 +131,28 @@ Si consiglia di indicare sempre la categoria della collezione.
 
 Mostra tutti gli oggetti di una collezione che corrispondono a un nome, anche parziale.
 Ad esempio, cercando **“Luffy”** vengono restituiti anche oggetti con nome completo *Monkey D. Luffy*.
-![Mostra oggetti collezione](images/4.png)
+![Mostra oggetti collezione](IMG/4.png)
 
 ---
 
 ### 5. Trova oggetto specifico
 
 Questa action esegue una ricerca avanzata considerando, oltre al nome, anche attributi come **tipo**, **rarità** o altre caratteristiche specificate dall’utente.
-![Trova oggetto specifico](images/5.png)
+![Trova oggetto specifico](IMG/5.png)
 
 ---
 
 ### 6. Aggiungi oggetto alla collezione
 
 Consente di aggiungere un nuovo oggetto a una collezione esistente. Il chatbot conferma l’avvenuto inserimento dell’elemento.
-![Aggiungi oggetto alla collezione](images/6.png)
+![Aggiungi oggetto alla collezione](IMG/6.png)
 
 ---
 
 ### 7. Elimina oggetto dalla collezione
 
 L’eliminazione avviene in due fasi: ricerca dell’oggetto e conferma esplicita dell’elemento da rimuovere, per evitare cancellazioni accidentali.
-![Elimina oggetto dalla collezione](images/7.png)
+![Elimina oggetto dalla collezione](IMG/7.png)
 
 ## Esempi di comandi
 
@@ -176,7 +176,7 @@ Elimina il 2
 * aiohttp 3.9.5
 
 ### Connessione server Telegram
-![Saluto iniziale](images/server.png)
+![Saluto iniziale](IMG/server.png)
 
 1. Creare un bot tramite **@BotFather**
 2. Inserire il token in `credentials.yml`
